@@ -2,8 +2,7 @@
   "description": "Displays Flask metrics that still work",
   "icon": "icon.png",
   
-  "command": "",
-  "command_lua": "boundary-meter init.lua",
+  "command": "boundary-meter init.lua",
   "postExtract": "",
     
   "metrics": [
