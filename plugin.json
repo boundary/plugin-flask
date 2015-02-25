@@ -25,17 +25,17 @@
     
   "paramSchema": [
     {
-      "title" : "Log Path",
-      "name" : "logPath",
-      "description" : "The Flask log location.",
-      "type" : "string",
-      "default" : "/etc/service/boundary-platform-flask/log/main/current"
+      "title": "Log Path",
+      "name": "logPath",
+      "description": "The Flask log location.",
+      "type": "string",
+      "default": "/etc/service/boundary-platform-flask/log/main/current"
     },
     {
-      "title" : "Source",
-      "name" : "source",
-      "description" : "The Source to display in the legend for the flask data.  It will default to the hostname of the server",
-      "type" : "string"
+      "title": "Source",
+      "name": "source",
+      "description": "The Source to display in the legend for the flask data.  It will default to the hostname of the server",
+      "type": "string"
     }
   ]
 }
