@@ -1,0 +1,39 @@
+{
+  "description": "Displays Flask metrics that still work",
+  "icon" : "icon.png",
+  "command_lua": "boundary-meter init.lua",
+  "postExtract" : "",
+    
+  "metrics" : [
+    "FLASK_BLOCKS",
+    "FLASK_BLOCKS_MEMORY",
+    "FLASK_BLOCKS_FILES",
+    "FLASK_BLOCKS_WRITTEN",
+    "FLASK_BLOCKS_TOSSED",
+    "FLASK_CONNECTIONS",
+    "FLASK_CURRENT_CONNECTIONS",
+    "FLASK_DISCONNECTIONS",
+    "FLASK_MEMORY_RSS",
+    "FLASK_MEMORY_VIRT",
+    "FLASK_THREADS",
+    "FLASK_CTX_SW",
+    "FLASK_REQUESTS",
+    "FLASK_QUEUE_BACKLOG"
+  ],
+    
+  "paramSchema" : [
+    {
+      "title" : "Log Path",
+      "name" : "logPath",
+      "description" : "The Flask log location.",
+      "type" : "string",
+      "default" : "/etc/service/boundary-platform-flask/log/main/current"
+    },
+    {
+      "title" : "Source",
+      "name" : "source",
+      "description" : "The Source to display in the legend for the flask data.  It will default to the hostname of the server",
+      "type" : "string"
+    }
+  ]
+}
