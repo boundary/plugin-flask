@@ -1,10 +1,12 @@
 {
   "description": "Displays Flask metrics that still work",
-  "icon" : "icon.png",
+  "icon": "icon.png",
+  
+  "command": "",
   "command_lua": "boundary-meter init.lua",
-  "postExtract" : "",
+  "postExtract": "",
     
-  "metrics" : [
+  "metrics": [
     "FLASK_BLOCKS",
     "FLASK_BLOCKS_MEMORY",
     "FLASK_BLOCKS_FILES",
@@ -21,7 +23,7 @@
     "FLASK_QUEUE_BACKLOG"
   ],
     
-  "paramSchema" : [
+  "paramSchema": [
     {
       "title" : "Log Path",
       "name" : "logPath",
