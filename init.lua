@@ -23,5 +23,5 @@ print("_bevent:Boundary Flask plugin up : version 1.0|t:info|tags:lua,plugin")
 flask = Flask:new(_param.logPath)
 
 flask:on('metric', function(metric)
-  p(string.format("%s %f %s", metric.name, metric.value, _source))
+  print(string.format("%s %f %s", metric.name, metric.value, _source))
 end)
