@@ -48,7 +48,7 @@ end
 
 -- get process id
 function PidStatus:getPid()
-  child = spawn('bash', { '-c','pidof ' .. self.name})
+  child = spawn('bash', {'-c','pidof -o ' .. process.pid .. ' ' .. self.name})
 
   child.stdout:on('data', function(chunk)
     if chunk then
