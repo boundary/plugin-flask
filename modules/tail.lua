@@ -110,7 +110,7 @@ function Tail:watchEvent(event, path)
   end
   if event == 'rename' then
     self:unwatch()
-    timer.setTimeout(1000, function()
+    timer.setTimeout(1500, function()
       self:watch()
     end)
   end
