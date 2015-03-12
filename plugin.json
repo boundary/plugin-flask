@@ -19,7 +19,9 @@
     "FLASK_THREADS",
     "FLASK_CTX_SW",
     "FLASK_REQUESTS",
-    "FLASK_QUEUE_BACKLOG"
+    "FLASK_QUEUE_BACKLOG",
+    "FLASK_DATA_POINTS_IN",
+    "FLASK_DATA_POINTS_OUT"
   ],
     
   "paramSchema": [

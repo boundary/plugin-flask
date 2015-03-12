@@ -27,6 +27,14 @@ local stats = {
     ['name'] = 'FLASK_BLOCKS_TOSSED',
     ['type'] = 'number'
   },
+  ['PI'] = {
+    ['name'] = 'FLASK_DATA_POINTS_IN',
+    ['type'] = 'number'
+  },
+  ['PO'] = {
+    ['name'] = 'FLASK_DATA_POINTS_OUT',
+    ['type'] = 'number'
+  },
   ['SC'] = {
     ['name'] = 'FLASK_CONNECTIONS',
     ['type'] = 'number'

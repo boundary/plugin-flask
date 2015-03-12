@@ -83,6 +83,18 @@
       "description": "the number of flask context switches",
       "unit": "number",
       "displayNameShort": "flask-ctx-sw",
+      "defaultAggregate": "SUM" },
+    { "name": "FLASK_DATA_POINTS_IN",
+      "displayName": "Flask Data Points In",
+      "description": "the number of data points sent to flask",
+      "unit": "number",
+      "displayNameShort": "flask-data-points-in",
+      "defaultAggregate": "SUM" },
+    { "name": "FLASK_DATA_POINTS_OUT",
+      "displayName": "Flask Data Points Out",
+      "description": "the number of data points read from flask",
+      "unit": "number",
+      "displayNameShort": "flask-data-points-out",
       "defaultAggregate": "SUM" }
   ]
 }
