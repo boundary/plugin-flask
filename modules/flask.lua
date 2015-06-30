@@ -95,7 +95,7 @@ function Flask:initialize(filename)
   end)
 
   -- process status
-  self.process = PidStatus:new('/opt/boundary-platform-flask/bin/flask')
+  self.process = PidStatus:new('/opt/flask/bin/flask')
   self.process:on("status", function(status)
     self:filter(status)
   end)
